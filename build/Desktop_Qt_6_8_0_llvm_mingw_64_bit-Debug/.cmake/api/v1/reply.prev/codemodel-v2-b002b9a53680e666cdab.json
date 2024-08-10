@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b8f9a1d6c55fec06938a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LAB4_bryan_restoDeEjercicios",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LAB4_bryan_restoDeEjercicios::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LAB4_bryan_restoDeEjercicios-Debug-ea03cd3d35f142f39280.json",
+					"name" : "LAB4_bryan_restoDeEjercicios",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LAB4_bryan_restoDeEjercicios_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LAB4_bryan_restoDeEjercicios_autogen-Debug-b2ed81f7df8a9511a2e0.json",
+					"name" : "LAB4_bryan_restoDeEjercicios_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LAB4_bryan_restoDeEjercicios_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LAB4_bryan_restoDeEjercicios_autogen_timestamp_deps-Debug-e7da3586fad12d014b35.json",
+					"name" : "LAB4_bryan_restoDeEjercicios_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/QT_ejercicios/LAB4_bryan_restoDeEjercicios/build/Desktop_Qt_6_8_0_llvm_mingw_64_bit-Debug",
+		"source" : "E:/QT_ejercicios/LAB4_bryan_restoDeEjercicios"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>851</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QLineEdit" name="nombreLine">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="fechaLine">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>100</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="descripcionLine">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>150</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nombe:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Fecha:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Deascripcion:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tarea_Diaria">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Tarea diaria</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="tarea_Semanal">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>240</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Tarea Semanal</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="imprimir">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>40</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Imprimir</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>130</y>
+        <width>341</width>
+        <height>181</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>70</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Codigo:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nombre:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="codigoLine">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>70</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="nombreLine_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>120</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="agregar">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>200</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Agregar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="eliminar">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>340</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Eliminar</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="imprimir_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>360</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Imprimir</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="codigoLine_2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>280</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>280</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Codigo:</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>160</y>
+        <width>341</width>
+        <height>181</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>70</y>
+        <width>121</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Electronico</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Alimento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ropa</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="modificar">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>340</y>
+        <width>141</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Modificar</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="modificarCodigo">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>420</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="modificarNombre">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>231</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>420</y>
+        <width>131</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Codigo a modificar:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>470</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Nombre a modificar:</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>890</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
